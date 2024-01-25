@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Ottoo.Entities.Ottoo.Entities.Models;
+using Ottoo.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,4 +1,4 @@
-﻿using Ottoo.Entities.Ottoo.Entities.Models;
+﻿using Ottoo.Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +11,8 @@ namespace Ottoo.Repositories.Contracts
     {
         Task<List<User>> GetAllUsersAsync();
         Task<User> GetOneUserByUserIdAsync(int userId);
-        void CreateOneUser(User userId);
-        void DeleteOneUser(User userId);
-        void UpdateOneUser(User userId);
+        void CreateOneUser(User user);
+        void DeleteOneUser(User user);
+        void UpdateOneUser(User user);
     }
 }

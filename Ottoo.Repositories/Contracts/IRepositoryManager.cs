@@ -8,9 +8,9 @@ namespace Ottoo.Repositories.Contracts
 {
     public interface IRepositoryManager
     {
-        IBookRepository BookRepository { get; }
-        ICategoryRepository CategoryRepository { get; }
-        IUserRepository UserRepository { get; }
+        IBookRepository Book { get; }
+        ICategoryRepository Category { get; }
+        IUserRepository User { get; }
         Task SaveAsync();
     }
 }

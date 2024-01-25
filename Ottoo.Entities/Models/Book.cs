@@ -5,7 +5,7 @@ using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ottoo.Entities.Ottoo.Entities.Models
+namespace Ottoo.Entities.Models
 {
     public class Book
     {
