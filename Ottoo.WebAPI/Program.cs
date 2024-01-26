@@ -14,6 +14,13 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureSqlContext(builder.Configuration);
 
+//Add Services
+builder.Services.ConfigureRepositoryManager();
+builder.Services.RegisterRepositories();
+builder.Services.ConfigureServiceManager();
+builder.Services.RegisterServices();
+
+
 var app = builder.Build();
 //add database connection
 
