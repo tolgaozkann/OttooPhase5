@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
+    <ProjectReference Include="..\Ottoo.Entities\Ottoo.Entities.csproj" />
+    <ProjectReference Include="..\Ottoo.Repositories\Ottoo.Repositories.csproj" />
   </ItemGroup>
 
 </Project>
