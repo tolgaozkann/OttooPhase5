@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Ottoo.Entities\Ottoo.Entities.csproj" />
     <ProjectReference Include="..\Ottoo.Repositories\Ottoo.Repositories.csproj" />
     <ProjectReference Include="..\Ottoo.Services\Ottoo.Services.csproj" />
