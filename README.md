@@ -15,7 +15,6 @@ id: The unique identifier for the user.
 UserName: The name of the user.
 
 2. Categories Table
-3. 
 The Categories table contains information related to book categories, such as category ID and name.
 
 Fields:
